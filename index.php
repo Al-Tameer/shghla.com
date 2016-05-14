@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/animation.css"/>
     <link rel="stylesheet" type="text/css" href="css/cal-iconz.css"/>
     <link rel="stylesheet" type="text/css" href="css/stylesheet.ltr.css"/>
-	<link rel="shortcut icon" type="img/x-icon" href="img/ras.ico"  />
+	<!--<link rel="shortcut icon" type="img/x-icon" href="img/ras.ico"  />-->
 	
 	<script src = "http://maps.googleapis.com/maps/api/js?language=en"></script>
     <script>
@@ -26,7 +26,7 @@
 				
             var map = new google.maps.Map(document.getElementById("googlemap"),mapOptions);
 			
-			var marker = new google.maps.Marker({
+			/*var marker = new google.maps.Marker({
                position: new google.maps.LatLng(33.28563000637936, 44.39920260833618),
                map: map,
                draggable:false,
@@ -46,7 +46,7 @@
             
             google.maps.event.addListener(marker, 'click', function() {
                infowindow.open(map,marker);
-            });
+            });*/
          }			
          //google.maps.event.addDomListener(window, 'load', loadMap);
     </script>
@@ -196,7 +196,7 @@ function validateNumber(evt) {
 </head>
 <body onload = "loadMap()">
 <div class="container center-block">
-	 <!-- Logo -->
+	 <!-- Logo 
             <a class="logo">
                 <img class="fadeInDown  animated" src="img/logo.png" alt="Logo">
             </a>
